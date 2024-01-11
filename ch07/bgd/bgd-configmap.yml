@@ -4,4 +4,4 @@ metadata:
   name: color-config
   namespace: bgd
 data:
-  COLOR: puple
+  COLOR: white
