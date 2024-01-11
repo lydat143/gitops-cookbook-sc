@@ -22,7 +22,10 @@ spec:
       - image: quay.io/rhdevelopers/bgd:1.0.0
         name: bgd
         env:
-        - name: COLOR
-          value: "blue"
+          - name: color-config
+            valueFrom:
+              configMapKeyRef:
+                name: color-config
+                pairKey: ''
         resources: {}
 ---
