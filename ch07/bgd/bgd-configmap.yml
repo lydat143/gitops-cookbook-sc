@@ -4,4 +4,4 @@ metadata:
   name: color-config
   namespace: bgd
 data:
-  COLOR: blue
+  COLOR: green
