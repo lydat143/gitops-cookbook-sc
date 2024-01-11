@@ -26,5 +26,6 @@ spec:
             valueFrom:
               configMapKeyRef:
                 name: color-config
+                key: COLOR
         resources: {}
 ---
